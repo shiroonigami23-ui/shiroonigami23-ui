@@ -12,7 +12,12 @@ Command center for managing and observing the full Shiro engineering ecosystem.
 - [config/projects.json](./config/projects.json): source-of-truth project registry.
 - [scripts/sync_dashboard.py](./scripts/sync_dashboard.py): metadata sync script.
 - [generated/STATUS.md](./generated/STATUS.md): generated portfolio health dashboard.
+- [generated/SHOWCASE.md](./generated/SHOWCASE.md): visitor-first map of all tracked repositories.
 - [DEEP_DIVE_MYTORCH.md](./DEEP_DIVE_MYTORCH.md): technical deep-dive notes.
+
+## Visitor Quick Start
+- Start here for full ecosystem understanding: [Project Showcase](./generated/SHOWCASE.md)
+- Operational status view: [Status Dashboard](./generated/STATUS.md)
 
 ## Current Tracked Projects
 - Shiro-Nexus
