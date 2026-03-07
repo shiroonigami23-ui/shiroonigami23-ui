@@ -1,20 +1,45 @@
-# 🏛️ Shiro Nexus
-> **Command Center for Aryan Singh Chandel's Engineering Ecosystem**
+# Shiro Nexus
 
-![Stats](https://github-readme-stats.vercel.app/api?username=shiroonigami23-ui&show_icons=true&theme=tokyonight&cache_seconds=1800)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shiroonigami23-ui&layout=compact&theme=tokyonight&cache_seconds=1800)
+Command center for managing and observing the full Shiro engineering ecosystem.
 
-## 📚 Technical Library
-- 🧠 **[MyTorch Deep-Dive](https://github.com/shiroonigami23-ui/Shiro-Nexus/blob/main/DEEP_DIVE_MYTORCH.md)** - Neural Networks from scratch.
-- 🛡️ **[Security Audit 2026](https://github.com/shiroonigami23-ui/Shiro-Nexus/blob/main/README.md)** - Secret Vaulting & CI/CD Pipelines.
+## What This Repo Does
+- Maintains a central registry of active projects.
+- Pulls GitHub metadata for each repo (status, last push, visibility, branch, stars, issues).
+- Generates a unified portfolio dashboard.
+- Acts as the base for future control-plane automation.
 
-## 🚀 Live Monitoring
-| Project | Type | Documentation | CI/CD Status |
-| :--- | :--- | :--- | :--- |
-| **MyTorch-MNIST** | AI Engine | [View Guide](./DEEP_DIVE_MYTORCH.md) | ![Status](https://github.com/shiroonigami23-ui/MyTorch-MNIST-Elite/actions/workflows/main.yml/badge.svg) |
-| **Attendance** | Firebase | [API Security] | ![Status](https://github.com/shiroonigami23-ui/Attendance-System/actions/workflows/main.yml/badge.svg) |
-| **Architecture** | Web App | [Architecture] | ![Status](https://github.com/shiroonigami23-ui/Computer-Architecture/actions/workflows/main.yml/badge.svg) |
+## Core Files
+- [config/projects.json](./config/projects.json): source-of-truth project registry.
+- [scripts/sync_dashboard.py](./scripts/sync_dashboard.py): metadata sync script.
+- [generated/STATUS.md](./generated/STATUS.md): generated portfolio health dashboard.
+- [DEEP_DIVE_MYTORCH.md](./DEEP_DIVE_MYTORCH.md): technical deep-dive notes.
+
+## Current Tracked Projects
+- Shiro-Nexus
+- nba-os
+- project-hub
+- Research-Vault
+- MyTorch-MNIST-Elite
+
+## Usage
+Generate or refresh the portfolio dashboard:
+
+```powershell
+python scripts/sync_dashboard.py
+```
+
+Optional for higher GitHub API limits:
+
+```powershell
+$env:GITHUB_TOKEN="<token>"
+python scripts/sync_dashboard.py
+```
+
+## Next Expansion (Planned)
+- Add per-project local health checks (build/test/dev-server status).
+- Add one-command orchestration hooks for each repo.
+- Add dependency graph and cross-repo release tracking.
+- Add notification hooks for stale/failed critical repos.
 
 ---
-### 🏆 Mastery & Milestones
-![Trophies](https://github-profile-trophy.vercel.app/?username=shiroonigami23-ui&theme=tokyonight&margin-w=15)
+Classification: Private / Proprietary

@@ -1,0 +1,45 @@
+{
+  "owner": "shiroonigami23-ui",
+  "projects": [
+    {
+      "name": "Shiro-Nexus",
+      "repo": "Shiro-Nexus",
+      "category": "Control Plane",
+      "criticality": "high",
+      "local_path": "C:/Users/shiro/OneDrive/Desktop/Shiro-Nexus",
+      "description": "Meta control center for portfolio operations and project observability."
+    },
+    {
+      "name": "nba-os",
+      "repo": "nba-os",
+      "category": "Enterprise Software",
+      "criticality": "high",
+      "local_path": "C:/Users/shiro/OneDrive/Desktop/NBA/nba-os",
+      "description": "Offline-first NBA accreditation automation platform."
+    },
+    {
+      "name": "project-hub",
+      "repo": "project-hub",
+      "category": "Education Platform",
+      "criticality": "high",
+      "local_path": "C:/Users/shiro/OneDrive/Desktop/project-hub",
+      "description": "Project/group/quiz collaboration system."
+    },
+    {
+      "name": "Research-Vault",
+      "repo": "Research-Vault",
+      "category": "Research",
+      "criticality": "medium",
+      "local_path": "C:/Users/shiro/OneDrive/Desktop/Research-Vault",
+      "description": "Central repository for research packages and publication artifacts."
+    },
+    {
+      "name": "MyTorch-MNIST-Elite",
+      "repo": "MyTorch-MNIST-Elite",
+      "category": "AI Engine",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "From-scratch ML framework experimentation and MNIST workflows."
+    }
+  ]
+}
