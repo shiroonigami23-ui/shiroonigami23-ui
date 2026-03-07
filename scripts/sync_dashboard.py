@@ -1,17 +1,24 @@
 #!/usr/bin/env python3
-"""Sync Shiro-Nexus project dashboard from GitHub repo metadata.
+"""Sync Shiro-Nexus project docs from GitHub metadata.
+
+Generated outputs:
+- generated/STATUS.md
+- generated/SHOWCASE.md
+- generated/ARCHITECTURE_CARDS.md
+- README.md dynamic portfolio block (between markers)
 
 Usage:
   python scripts/sync_dashboard.py
 
 Optional environment:
-  GITHUB_TOKEN=ghp_xxx  (recommended to avoid low unauthenticated rate limits)
+  GITHUB_TOKEN=ghp_xxx
 """
 
 from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -21,8 +28,13 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config" / "projects.json"
+README_PATH = ROOT / "README.md"
 STATUS_PATH = ROOT / "generated" / "STATUS.md"
 SHOWCASE_PATH = ROOT / "generated" / "SHOWCASE.md"
+CARDS_PATH = ROOT / "generated" / "ARCHITECTURE_CARDS.md"
+
+README_START = "<!-- AUTO_PORTFOLIO_START -->"
+README_END = "<!-- AUTO_PORTFOLIO_END -->"
 
 
 def github_get(url: str) -> Dict[str, Any]:
@@ -75,57 +87,53 @@ def build_row(owner: str, project: Dict[str, Any]) -> Dict[str, Any]:
     repo = project["repo"]
     meta = github_get(f"https://api.github.com/repos/{owner}/{repo}")
 
+    base = {
+        "name": project["name"],
+        "repo": repo,
+        "category": project.get("category", "-"),
+        "criticality": project.get("criticality", "-"),
+        "description": project.get("description", ""),
+        "stack": project.get("stack", "-"),
+        "audience": project.get("audience", "-"),
+        "local_path": project.get("local_path", ""),
+        "repo_url": f"https://github.com/{owner}/{repo}",
+        "readme_url": f"https://github.com/{owner}/{repo}#readme",
+    }
+
     if "_error" in meta:
         return {
-            "name": project["name"],
-            "repo": repo,
-            "category": project.get("category", "-"),
-            "criticality": project.get("criticality", "-"),
+            **base,
             "status": "ERROR",
             "visibility": "-",
             "branch": "-",
             "last_push": "-",
             "stars": "-",
             "issues": "-",
-            "health": meta["_error"],
-            "local_path": project.get("local_path", ""),
-            "description": project.get("description", ""),
-            "repo_url": f"https://github.com/{owner}/{repo}",
+            "forks": "-",
             "language": "-",
             "topics": [],
             "homepage": "",
-            "forks": 0,
-            "readme_url": f"https://github.com/{owner}/{repo}#readme",
+            "health": meta["_error"],
         }
 
-    status = status_badge(bool(meta.get("archived", False)), meta.get("pushed_at"))
-
     return {
-        "name": project["name"],
-        "repo": repo,
-        "category": project.get("category", "-"),
-        "criticality": project.get("criticality", "-"),
-        "status": status,
+        **base,
+        "status": status_badge(bool(meta.get("archived", False)), meta.get("pushed_at")),
         "visibility": "private" if meta.get("private") else "public",
         "branch": meta.get("default_branch", "-"),
         "last_push": fmt_iso(meta.get("pushed_at")),
         "stars": meta.get("stargazers_count", 0),
         "issues": meta.get("open_issues_count", 0),
-        "health": "ok",
-        "local_path": project.get("local_path", ""),
-        "description": project.get("description", ""),
-        "repo_url": meta.get("html_url", f"https://github.com/{owner}/{repo}"),
+        "forks": meta.get("forks_count", 0),
         "language": meta.get("language") or "-",
         "topics": meta.get("topics", []),
         "homepage": meta.get("homepage") or "",
-        "forks": meta.get("forks_count", 0),
-        "readme_url": f"{meta.get('html_url', f'https://github.com/{owner}/{repo}') }#readme",
+        "health": "ok",
     }
 
 
 def render_status(rows: List[Dict[str, Any]]) -> str:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-
     lines = [
         "# Shiro Nexus Status Dashboard",
         "",
@@ -148,31 +156,27 @@ def render_status(rows: List[Dict[str, Any]]) -> str:
         lines.append(f"- **{r['name']}**: `{path}`")
 
     lines.extend(["", "## Notes", ""])
-    for r in rows:
-        if r["health"] != "ok":
-            lines.append(f"- {r['name']}: {r['health']}")
-
-    if lines[-1] == "":
+    errors = [r for r in rows if r["health"] != "ok"]
+    if not errors:
         lines.append("- No API errors detected during sync.")
+    else:
+        for r in errors:
+            lines.append(f"- {r['name']}: {r['health']}")
 
     lines.extend([
         "",
         "## Operations",
         "",
-        "Refresh dashboard:",
-        "",
         "```powershell",
         "python scripts/sync_dashboard.py",
         "```",
     ])
-
     return "\n".join(lines) + "\n"
 
 
 def render_showcase(rows: List[Dict[str, Any]]) -> str:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     categories = sorted({r["category"] for r in rows})
-
     lines = [
         "# Shiro Nexus Project Showcase",
         "",
@@ -180,47 +184,94 @@ def render_showcase(rows: List[Dict[str, Any]]) -> str:
         "",
         f"Generated: {now}",
         "",
-        "## How To Navigate",
-        "",
-        "1. Start with **Shiro-Nexus** as control plane.",
-        "2. Move to product repos (`nba-os`, `project-hub`) for platform systems.",
-        "3. Explore R&D repos (`Research-Vault`, `MyTorch-MNIST-Elite`) for research/engine work.",
-        "",
     ]
 
     for category in categories:
         lines.extend([f"## {category}", ""])
-        category_rows = [r for r in rows if r["category"] == category]
-        category_rows.sort(key=lambda r: (r["criticality"], r["name"]))
-        for r in category_rows:
+        subset = sorted([r for r in rows if r["category"] == category], key=lambda r: (r["criticality"], r["name"]))
+        for r in subset:
             topics = ", ".join(r["topics"]) if r["topics"] else "-"
             homepage = r["homepage"] if r["homepage"] else "-"
-            lines.extend(
-                [
-                    f"### [{r['name']}]({r['repo_url']})",
-                    f"- Purpose: {r['description'] or 'No description provided.'}",
-                    f"- Status: **{r['status']}** | Criticality: **{r['criticality']}** | Visibility: **{r['visibility']}**",
-                    f"- Tech signal: Primary language **{r['language']}** | Stars **{r['stars']}** | Forks **{r['forks']}** | Open issues **{r['issues']}**",
-                    f"- Topics: {topics}",
-                    f"- Default branch: `{r['branch']}` | Last push: {r['last_push']}",
-                    f"- README: [Open]({r['readme_url']})",
-                    f"- Homepage: {homepage}",
-                    "",
-                ]
-            )
+            lines.extend([
+                f"### [{r['name']}]({r['repo_url']})",
+                f"- Purpose: {r['description'] or 'No description provided.'}",
+                f"- Audience: {r['audience']}",
+                f"- Status: **{r['status']}** | Criticality: **{r['criticality']}** | Visibility: **{r['visibility']}**",
+                f"- Stack: {r['stack']}",
+                f"- Tech signal: language **{r['language']}** | stars **{r['stars']}** | forks **{r['forks']}** | open issues **{r['issues']}**",
+                f"- Topics: {topics}",
+                f"- Last push: {r['last_push']} | Branch: `{r['branch']}`",
+                f"- README: [Open]({r['readme_url']})",
+                f"- Homepage: {homepage}",
+                "",
+            ])
 
-    lines.extend(
-        [
-            "## Control-Plane Notes",
-            "",
-            "- Data is fetched from GitHub API by `scripts/sync_dashboard.py`.",
-            "- For private repositories, metadata is visible if your token has access.",
-            "- No credentials are stored in repository files.",
-            "",
-        ]
-    )
+    lines.extend([
+        "## Security Note",
+        "",
+        "- Generated content does not embed tokens or credentials.",
+        "- Use environment variable `GITHUB_TOKEN` only during runtime.",
+    ])
+    return "\n".join(lines) + "\n"
 
+
+def render_cards(rows: List[Dict[str, Any]]) -> str:
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    lines = [
+        "# Architecture Cards",
+        "",
+        f"Generated: {now}",
+        "",
+        "Compact architecture snapshots for each tracked repository.",
+        "",
+    ]
+
+    for r in sorted(rows, key=lambda x: (x["category"], x["name"])):
+        lines.extend([
+            f"## {r['name']}",
+            f"- Repo: {r['repo_url']}",
+            f"- Category: {r['category']} | Criticality: {r['criticality']} | Status: {r['status']}",
+            f"- Primary language: {r['language']} | Visibility: {r['visibility']}",
+            f"- Purpose: {r['description']}",
+            f"- Stack: {r['stack']}",
+            f"- Audience: {r['audience']}",
+            "- System Flow:",
+            "  1. Input/Data sources enter project workflows.",
+            "  2. Core logic/services process and produce outputs.",
+            "  3. Outputs are exposed via UI/docs/APIs for users and collaborators.",
+            "",
+        ])
+
+    return "\n".join(lines) + "\n"
+
+
+def render_readme_block(rows: List[Dict[str, Any]]) -> str:
+    lines = [
+        README_START,
+        "## Live Portfolio Snapshot",
+        "",
+        "| Project | Category | Status | Last Push |",
+        "|---|---|---|---|",
+    ]
+    for r in rows:
+        lines.append(f"| [{r['name']}]({r['repo_url']}) | {r['category']} | {r['status']} | {r['last_push']} |")
+    lines.extend([
+        "",
+        "Generated docs:",
+        "- [Status Dashboard](./generated/STATUS.md)",
+        "- [Project Showcase](./generated/SHOWCASE.md)",
+        "- [Architecture Cards](./generated/ARCHITECTURE_CARDS.md)",
+        README_END,
+    ])
     return "\n".join(lines)
+
+
+def patch_readme(readme_text: str, block: str) -> str:
+    pattern = re.compile(re.escape(README_START) + r".*?" + re.escape(README_END), re.S)
+    if pattern.search(readme_text):
+        return pattern.sub(block, readme_text)
+    suffix = "\n\n" if not readme_text.endswith("\n") else "\n"
+    return readme_text + suffix + block + "\n"
 
 
 def main() -> int:
@@ -232,14 +283,21 @@ def main() -> int:
     owner = data["owner"]
     projects = data["projects"]
 
-    rows = [build_row(owner, project) for project in projects]
+    rows = [build_row(owner, p) for p in projects]
     rows.sort(key=lambda r: (r["criticality"], r["name"]))
 
     STATUS_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATUS_PATH.write_text(render_status(rows), encoding="utf-8")
     SHOWCASE_PATH.write_text(render_showcase(rows), encoding="utf-8")
+    CARDS_PATH.write_text(render_cards(rows), encoding="utf-8")
+
+    readme = README_PATH.read_text(encoding="utf-8") if README_PATH.exists() else "# Shiro Nexus\n"
+    README_PATH.write_text(patch_readme(readme, render_readme_block(rows)), encoding="utf-8")
+
     print(f"Wrote {STATUS_PATH}")
     print(f"Wrote {SHOWCASE_PATH}")
+    print(f"Wrote {CARDS_PATH}")
+    print(f"Updated {README_PATH}")
     return 0
 
 

@@ -1,0 +1,21 @@
+# Secrets / local runtime
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# Service account and credential dumps
+*credentials*.csv
+*credentials*.json
+*accessKeys*.csv
+*secret*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated local artifacts
+generated/*.tmp

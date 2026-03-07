@@ -48,3 +48,20 @@ python scripts/sync_dashboard.py
 
 ---
 Classification: Private / Proprietary
+
+<!-- AUTO_PORTFOLIO_START -->
+## Live Portfolio Snapshot
+
+| Project | Category | Status | Last Push |
+|---|---|---|---|
+| [Shiro-Nexus](https://github.com/shiroonigami23-ui/Shiro-Nexus) | Control Plane | ACTIVE | 2026-03-07 06:03 UTC |
+| [nba-os](https://github.com/shiroonigami23-ui/nba-os) | Enterprise Software | ACTIVE | 2026-03-07 05:21 UTC |
+| [project-hub](https://github.com/shiroonigami23-ui/project-hub) | Education Platform | ACTIVE | 2026-03-06 11:03 UTC |
+| [MyTorch-MNIST-Elite](https://github.com/shiroonigami23-ui/MyTorch-MNIST-Elite) | AI Engine | WARM | 2026-01-11 11:45 UTC |
+| [Research-Vault](https://github.com/shiroonigami23-ui/Research-Vault) | Research | ACTIVE | 2026-03-07 05:42 UTC |
+
+Generated docs:
+- [Status Dashboard](./generated/STATUS.md)
+- [Project Showcase](./generated/SHOWCASE.md)
+- [Architecture Cards](./generated/ARCHITECTURE_CARDS.md)
+<!-- AUTO_PORTFOLIO_END -->

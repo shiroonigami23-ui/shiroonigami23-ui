@@ -7,7 +7,9 @@
       "category": "Control Plane",
       "criticality": "high",
       "local_path": "C:/Users/shiro/OneDrive/Desktop/Shiro-Nexus",
-      "description": "Meta control center for portfolio operations and project observability."
+      "description": "Meta control center for portfolio operations and project observability.",
+      "stack": "Python, GitHub API, Markdown Automation",
+      "audience": "Visitors, collaborators, portfolio reviewers"
     },
     {
       "name": "nba-os",
@@ -15,7 +17,9 @@
       "category": "Enterprise Software",
       "criticality": "high",
       "local_path": "C:/Users/shiro/OneDrive/Desktop/NBA/nba-os",
-      "description": "Offline-first NBA accreditation automation platform."
+      "description": "Offline-first NBA accreditation automation platform.",
+      "stack": "PHP, MySQL, React, Redis-ready",
+      "audience": "Institutions, accreditation cells, admins"
     },
     {
       "name": "project-hub",
@@ -23,7 +27,9 @@
       "category": "Education Platform",
       "criticality": "high",
       "local_path": "C:/Users/shiro/OneDrive/Desktop/project-hub",
-      "description": "Project/group/quiz collaboration system."
+      "description": "Project/group/quiz collaboration system.",
+      "stack": "Web stack (frontend + backend services)",
+      "audience": "Students, faculty, course managers"
     },
     {
       "name": "Research-Vault",
@@ -31,7 +37,9 @@
       "category": "Research",
       "criticality": "medium",
       "local_path": "C:/Users/shiro/OneDrive/Desktop/Research-Vault",
-      "description": "Central repository for research packages and publication artifacts."
+      "description": "Central repository for research packages and publication artifacts.",
+      "stack": "Research docs, datasets, paper packages",
+      "audience": "Researchers, reviewers, collaborators"
     },
     {
       "name": "MyTorch-MNIST-Elite",
@@ -39,7 +47,9 @@
       "category": "AI Engine",
       "criticality": "medium",
       "local_path": "",
-      "description": "From-scratch ML framework experimentation and MNIST workflows."
+      "description": "From-scratch ML framework experimentation and MNIST workflows.",
+      "stack": "Python, NumPy, neural network internals",
+      "audience": "ML learners, engine builders"
     }
   ]
 }

@@ -2,22 +2,18 @@
 
 Visitor-friendly map of the Shiro engineering ecosystem.
 
-Generated: 2026-03-07 06:03 UTC
-
-## How To Navigate
-
-1. Start with **Shiro-Nexus** as control plane.
-2. Move to product repos (`nba-os`, `project-hub`) for platform systems.
-3. Explore R&D repos (`Research-Vault`, `MyTorch-MNIST-Elite`) for research/engine work.
+Generated: 2026-03-07 06:06 UTC
 
 ## AI Engine
 
 ### [MyTorch-MNIST-Elite](https://github.com/shiroonigami23-ui/MyTorch-MNIST-Elite)
 - Purpose: From-scratch ML framework experimentation and MNIST workflows.
+- Audience: ML learners, engine builders
 - Status: **WARM** | Criticality: **medium** | Visibility: **public**
-- Tech signal: Primary language **Python** | Stars **9** | Forks **0** | Open issues **0**
+- Stack: Python, NumPy, neural network internals
+- Tech signal: language **Python** | stars **9** | forks **0** | open issues **0**
 - Topics: -
-- Default branch: `main` | Last push: 2026-01-11 11:45 UTC
+- Last push: 2026-01-11 11:45 UTC | Branch: `main`
 - README: [Open](https://github.com/shiroonigami23-ui/MyTorch-MNIST-Elite#readme)
 - Homepage: -
 
@@ -25,10 +21,12 @@ Generated: 2026-03-07 06:03 UTC
 
 ### [Shiro-Nexus](https://github.com/shiroonigami23-ui/Shiro-Nexus)
 - Purpose: Meta control center for portfolio operations and project observability.
+- Audience: Visitors, collaborators, portfolio reviewers
 - Status: **ACTIVE** | Criticality: **high** | Visibility: **public**
-- Tech signal: Primary language **Python** | Stars **9** | Forks **0** | Open issues **0**
+- Stack: Python, GitHub API, Markdown Automation
+- Tech signal: language **Python** | stars **9** | forks **0** | open issues **0**
 - Topics: -
-- Default branch: `main` | Last push: 2026-03-07 05:58 UTC
+- Last push: 2026-03-07 06:03 UTC | Branch: `main`
 - README: [Open](https://github.com/shiroonigami23-ui/Shiro-Nexus#readme)
 - Homepage: -
 
@@ -36,10 +34,12 @@ Generated: 2026-03-07 06:03 UTC
 
 ### [project-hub](https://github.com/shiroonigami23-ui/project-hub)
 - Purpose: Project/group/quiz collaboration system.
+- Audience: Students, faculty, course managers
 - Status: **ACTIVE** | Criticality: **high** | Visibility: **private**
-- Tech signal: Primary language **TypeScript** | Stars **1** | Forks **0** | Open issues **0**
+- Stack: Web stack (frontend + backend services)
+- Tech signal: language **TypeScript** | stars **1** | forks **0** | open issues **0**
 - Topics: -
-- Default branch: `main` | Last push: 2026-03-06 11:03 UTC
+- Last push: 2026-03-06 11:03 UTC | Branch: `main`
 - README: [Open](https://github.com/shiroonigami23-ui/project-hub#readme)
 - Homepage: https://project-hub-inky-five.vercel.app
 
@@ -47,10 +47,12 @@ Generated: 2026-03-07 06:03 UTC
 
 ### [nba-os](https://github.com/shiroonigami23-ui/nba-os)
 - Purpose: Offline-first NBA accreditation automation platform.
+- Audience: Institutions, accreditation cells, admins
 - Status: **ACTIVE** | Criticality: **high** | Visibility: **private**
-- Tech signal: Primary language **PHP** | Stars **0** | Forks **0** | Open issues **0**
+- Stack: PHP, MySQL, React, Redis-ready
+- Tech signal: language **PHP** | stars **0** | forks **0** | open issues **0**
 - Topics: -
-- Default branch: `master` | Last push: 2026-03-07 05:21 UTC
+- Last push: 2026-03-07 05:21 UTC | Branch: `master`
 - README: [Open](https://github.com/shiroonigami23-ui/nba-os#readme)
 - Homepage: -
 
@@ -58,15 +60,16 @@ Generated: 2026-03-07 06:03 UTC
 
 ### [Research-Vault](https://github.com/shiroonigami23-ui/Research-Vault)
 - Purpose: Central repository for research packages and publication artifacts.
+- Audience: Researchers, reviewers, collaborators
 - Status: **ACTIVE** | Criticality: **medium** | Visibility: **public**
-- Tech signal: Primary language **Python** | Stars **2** | Forks **0** | Open issues **0**
+- Stack: Research docs, datasets, paper packages
+- Tech signal: language **Python** | stars **2** | forks **0** | open issues **0**
 - Topics: -
-- Default branch: `main` | Last push: 2026-03-07 05:42 UTC
+- Last push: 2026-03-07 05:42 UTC | Branch: `main`
 - README: [Open](https://github.com/shiroonigami23-ui/Research-Vault#readme)
 - Homepage: -
 
-## Control-Plane Notes
+## Security Note
 
-- Data is fetched from GitHub API by `scripts/sync_dashboard.py`.
-- For private repositories, metadata is visible if your token has access.
-- No credentials are stored in repository files.
+- Generated content does not embed tokens or credentials.
+- Use environment variable `GITHUB_TOKEN` only during runtime.
