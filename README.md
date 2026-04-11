@@ -1,67 +1,99 @@
-# Shiro Nexus
+<h1 align="center">ShiroOni23</h1>
+<h3 align="center">Developer • Systems Builder • AI/ML Engineer • Security-Oriented Problem Solver</h3>
 
-Command center for managing and observing the full Shiro engineering ecosystem.
+<p align="center">
+  <a href="https://github.com/shiroonigami23-ui">
+    <img src="https://komarev.com/ghpvc/?username=shiroonigami23-ui&style=for-the-badge&color=0e75b6" alt="profile views" />
+  </a>
+  <a href="https://github.com/shiroonigami23-ui?tab=followers">
+    <img src="https://img.shields.io/github/followers/shiroonigami23-ui?label=Followers&logo=github&style=for-the-badge" alt="followers" />
+  </a>
+  <a href="mailto:shiroonigami23@gmail.com">
+    <img src="https://img.shields.io/badge/Email-shiroonigami23%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="email" />
+  </a>
+</p>
 
-## What This Repo Does
-- Maintains a central registry of active projects.
-- Pulls GitHub metadata for each repo (status, last push, visibility, branch, stars, issues).
-- Generates a unified portfolio dashboard.
-- Acts as the base for future control-plane automation.
+## About Me
+- Building robust products across web, AI/ML, systems programming, and security.
+- Working on **AegisOS**: a secure, lightweight, customizable operating system.
+- Focus: scalable backend architecture, algorithmic systems, and practical security engineering.
+- Open to collaboration on ambitious products and research-grade implementations.
 
-## Core Files
-- [config/projects.json](./config/projects.json): source-of-truth project registry.
-- [scripts/sync_dashboard.py](./scripts/sync_dashboard.py): metadata sync script.
-- [generated/STATUS.md](./generated/STATUS.md): generated portfolio health dashboard.
-- [generated/SHOWCASE.md](./generated/SHOWCASE.md): visitor-first map of all tracked repositories.
-- [DEEP_DIVE_MYTORCH.md](./DEEP_DIVE_MYTORCH.md): technical deep-dive notes.
+## Connect
+<p>
+  <a href="https://x.com/HabhanSing47523"><img src="https://img.shields.io/badge/X-@HabhanSing47523-black?style=for-the-badge&logo=x&logoColor=white" alt="x" /></a>
+  <a href="https://leetcode.com/u/Shirooni23k/"><img src="https://img.shields.io/badge/LeetCode-Shirooni23k-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="leetcode" /></a>
+  <a href="https://huggingface.co/ShiroOnigami23"><img src="https://img.shields.io/badge/HuggingFace-ShiroOnigami23-yellow?style=for-the-badge&logo=huggingface&logoColor=black" alt="huggingface" /></a>
+  <a href="mailto:shiroonigami23@gmail.com"><img src="https://img.shields.io/badge/Gmail-shiroonigami23%40gmail.com-c14438?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" /></a>
+</p>
 
-## Visitor Quick Start
-- Start here for full ecosystem understanding: [Project Showcase](./generated/SHOWCASE.md)
-- Operational status view: [Status Dashboard](./generated/STATUS.md)
+## Tech Stack
+### Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,go,c,cpp,java,kotlin,swift,rust,cs,php,ruby,html,css,bash" />
+</p>
 
-## Current Tracked Projects
-- Shiro-Nexus
-- nba-os
-- project-hub
-- Research-Vault
-- MyTorch-MNIST-Elite
+### Frameworks and Libraries
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flask,tensorflow,pytorch,opencv,gradio,bootstrap,tailwind" />
+</p>
 
-## Usage
-Generate or refresh the portfolio dashboard:
+### Databases and Cloud
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite,firebase,supabase,redis,aws,gcp,vercel,netlify,cloudflare,docker,kubernetes,terraform" />
+</p>
 
-```powershell
-python scripts/sync_dashboard.py
-```
+### Tools and Platforms
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,linux,androidstudio,postman,figma,unity,blender" />
+</p>
 
-Optional for higher GitHub API limits:
+## GitHub Analytics
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shiroonigami23-ui&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shiroonigami23-ui&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
+</p>
 
-```powershell
-$env:GITHUB_TOKEN="<token>"
-python scripts/sync_dashboard.py
-```
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=shiroonigami23-ui&theme=tokyonight&hide_border=true" alt="streak" />
+</p>
 
-## Next Expansion (Planned)
-- Add per-project local health checks (build/test/dev-server status).
-- Add one-command orchestration hooks for each repo.
-- Add dependency graph and cross-repo release tracking.
-- Add notification hooks for stale/failed critical repos.
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shiroonigami23-ui&theme=tokyonight" alt="activity graph summary" />
+</p>
 
----
-Classification: Private / Proprietary
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=shiroonigami23-ui&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="trophies" />
+</p>
 
-<!-- AUTO_PORTFOLIO_START -->
-## Live Portfolio Snapshot
+## Featured Projects
+<p align="center">
+  <a href="https://github.com/shiroonigami23-ui/AegisOS">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shiroonigami23-ui&repo=AegisOS&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/shiroonigami23-ui/Smart-Study">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shiroonigami23-ui&repo=Smart-Study&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
 
-| Project | Category | Status | Last Push |
-|---|---|---|---|
-| [Shiro-Nexus](https://github.com/shiroonigami23-ui/Shiro-Nexus) | Control Plane | ACTIVE | 2026-03-07 06:03 UTC |
-| [nba-os](https://github.com/shiroonigami23-ui/nba-os) | Enterprise Software | ACTIVE | 2026-03-07 05:21 UTC |
-| [project-hub](https://github.com/shiroonigami23-ui/project-hub) | Education Platform | ACTIVE | 2026-03-06 11:03 UTC |
-| [MyTorch-MNIST-Elite](https://github.com/shiroonigami23-ui/MyTorch-MNIST-Elite) | AI Engine | WARM | 2026-01-11 11:45 UTC |
-| [Research-Vault](https://github.com/shiroonigami23-ui/Research-Vault) | Research | ACTIVE | 2026-03-07 05:42 UTC |
+<p align="center">
+  <a href="https://github.com/shiroonigami23-ui/class-solutions">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shiroonigami23-ui&repo=class-solutions&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/shiroonigami23-ui/Research-Vault">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shiroonigami23-ui&repo=Research-Vault&theme=tokyonight&hide_border=true" />
+  </a>
+</p>
 
-Generated docs:
+## Command Center
+This repo still powers my ecosystem dashboard and automation.
+
 - [Status Dashboard](./generated/STATUS.md)
 - [Project Showcase](./generated/SHOWCASE.md)
 - [Architecture Cards](./generated/ARCHITECTURE_CARDS.md)
-<!-- AUTO_PORTFOLIO_END -->
+- [Sync Script](./scripts/sync_dashboard.py)
+
+---
+<p align="center">
+  <strong>Let's build secure, high-impact systems.</strong>
+</p>
