@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/shiroonigami23-ui">
-    <img src="https://komarev.com/ghpvc/?username=shiroonigami23-ui&style=for-the-badge&color=0e75b6" alt="profile views" />
+    <img src="https://visitcount.itsvg.in/api?id=shiroonigami23-ui&label=VISITORS&color=6&icon=5&pretty=true" alt="visitors" />
   </a>
   <a href="https://github.com/shiroonigami23-ui?tab=followers">
     <img src="https://img.shields.io/github/followers/shiroonigami23-ui?label=Followers&logo=github&style=for-the-badge" alt="followers" />
@@ -24,6 +24,7 @@
   <a href="https://x.com/HabhanSing47523"><img src="https://img.shields.io/badge/X-@HabhanSing47523-black?style=for-the-badge&logo=x&logoColor=white" alt="x" /></a>
   <a href="https://leetcode.com/u/Shirooni23k/"><img src="https://img.shields.io/badge/LeetCode-Shirooni23k-orange?style=for-the-badge&logo=leetcode&logoColor=white" alt="leetcode" /></a>
   <a href="https://huggingface.co/ShiroOnigami23"><img src="https://img.shields.io/badge/HuggingFace-ShiroOnigami23-yellow?style=for-the-badge&logo=huggingface&logoColor=black" alt="huggingface" /></a>
+  <a href="https://www.kaggle.com/aryanchande23l"><img src="https://img.shields.io/badge/Kaggle-aryanchande23l-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="kaggle" /></a>
   <a href="mailto:shiroonigami23@gmail.com"><img src="https://img.shields.io/badge/Gmail-shiroonigami23%40gmail.com-c14438?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" /></a>
 </p>
 
@@ -50,8 +51,8 @@
 
 ## GitHub Analytics
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shiroonigami23-ui&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shiroonigami23-ui&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=shiroonigami23-ui&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=21600" alt="stats" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=shiroonigami23-ui&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=21600" alt="top langs" />
 </p>
 
 <p align="center">
@@ -63,25 +64,25 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=shiroonigami23-ui&theme=algolia&margin-w=10&margin-h=10&no-bg=true&no-frame=true" alt="trophies" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shiroonigami23-ui&theme=tokyo-night&hide_border=true&area=true" alt="activity graph" />
 </p>
 
 ## Featured Projects
 <p align="center">
   <a href="https://github.com/shiroonigami23-ui/AegisOS">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shiroonigami23-ui&repo=AegisOS&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=shiroonigami23-ui&repo=AegisOS&theme=tokyonight&hide_border=true&cache_seconds=21600" />
   </a>
   <a href="https://github.com/shiroonigami23-ui/Smart-Study">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shiroonigami23-ui&repo=Smart-Study&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=shiroonigami23-ui&repo=Smart-Study&theme=tokyonight&hide_border=true&cache_seconds=21600" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/shiroonigami23-ui/class-solutions">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shiroonigami23-ui&repo=class-solutions&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=shiroonigami23-ui&repo=class-solutions&theme=tokyonight&hide_border=true&cache_seconds=21600" />
   </a>
   <a href="https://github.com/shiroonigami23-ui/Research-Vault">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=shiroonigami23-ui&repo=Research-Vault&theme=tokyonight&hide_border=true" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=shiroonigami23-ui&repo=Research-Vault&theme=tokyonight&hide_border=true&cache_seconds=21600" />
   </a>
 </p>
 
