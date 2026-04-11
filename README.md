@@ -36,7 +36,7 @@
 
 ### Frameworks and Libraries
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flask,tensorflow,pytorch,opencv,gradio,bootstrap,tailwind" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flask,tensorflow,pytorch,opencv,gradle,bootstrap,tailwind" />
 </p>
 
 ### Databases and Cloud
