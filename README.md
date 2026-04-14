@@ -81,8 +81,8 @@
   <a href="https://github.com/shiroonigami23-ui/class-solutions">
     <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=shiroonigami23-ui&repo=class-solutions&theme=tokyonight&hide_border=true&cache_seconds=21600" />
   </a>
-  <a href="https://github.com/shiroonigami23-ui/Research-Vault">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=shiroonigami23-ui&repo=Research-Vault&theme=tokyonight&hide_border=true&cache_seconds=21600" />
+<a href="https://github.com/shiroonigami23-ui/lms-pro">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=shiroonigami23-ui&repo=lms-pro&theme=tokyonight&hide_border=true&cache_seconds=21600" />
   </a>
 </p>
 
