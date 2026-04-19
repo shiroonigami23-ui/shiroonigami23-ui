@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/shiroonigami23-ui">
-  <img src="https://komarev.com/ghpvc/?username=shiroonigami23-ui&label=VISITORS&color=blue&style=for-the-badge" alt="visitors" />
+  <img src="https://img.shields.io/badge/dynamic/json?label=VISITORS&query=value&url=https%3A%2F%2Fapi.countapi.xyz%2Fhit%2Fshiroonigami23-ui%2Fvisits&color=blue&style=for-the-badge&logo=github" alt="visitors" />
 </a>
   <a href="https://github.com/shiroonigami23-ui?tab=followers">
     <img src="https://img.shields.io/github/followers/shiroonigami23-ui?label=Followers&logo=github&style=for-the-badge" alt="followers" />
