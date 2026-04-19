@@ -3,8 +3,8 @@
 
 <p align="center">
   <a href="https://github.com/shiroonigami23-ui">
-    <img src="https://visitcount.itsvg.in/api?id=shiroonigami23-ui&label=VISITORS&color=6&icon=5&pretty=true" alt="visitors" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=shiroonigami23-ui&label=VISITORS&color=blue&style=for-the-badge" alt="visitors" />
+</a>
   <a href="https://github.com/shiroonigami23-ui?tab=followers">
     <img src="https://img.shields.io/github/followers/shiroonigami23-ui?label=Followers&logo=github&style=for-the-badge" alt="followers" />
   </a>
