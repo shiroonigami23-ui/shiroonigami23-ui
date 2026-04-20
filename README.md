@@ -31,7 +31,7 @@
 ## Tech Stack
 ### Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,go,c,cpp,java,kotlin,swift,rust,cs,php,ruby,html,css,bash" />
+  <img src="https://skillicons.dev/icons?i=python,js,ts,go,c,cpp,java,kotlin,swift,rust,cs,php,powershell,html,css,perl" />
 </p>
 
 ### Frameworks and Libraries
