@@ -88,7 +88,7 @@
 </p>
 
 ## Command Center
-This repo still powers my ecosystem dashboard and automation.
+ Powering my ecosystem dashboard and automation.
 
 - [Status Dashboard](./generated/STATUS.md)
 - [Project Showcase](./generated/SHOWCASE.md)
