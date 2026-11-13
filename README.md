@@ -31,22 +31,22 @@
 ## Tech Stack
 ### Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,go,c,cpp,java,kotlin,swift,rust,cs,php,powershell,html,css,perl" />
+  <img src="https://skillicons.dev/icons?i=python,ts,go,java,kotlin,rust,php,powershell," />
 </p>
 
 ### Frameworks and Libraries
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flask,tensorflow,pytorch,opencv,gradle,bootstrap,tailwind" />
+  <img src="https://skillicons.dev/icons?i=react,express,fastapi,flask,tensorflow,pytorch,gradle,bootstrap" />
 </p>
 
 ### Databases and Cloud
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite,firebase,supabase,redis,aws,gcp,vercel,netlify,cloudflare,docker,kubernetes,terraform" />
+  <img src="https://skillicons.dev/icons?i=mysql,supabase,redis,aws,vercel,cloudflare,docker,terraform" />
 </p>
 
 ### Tools and Platforms
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,linux,androidstudio,postman,figma,unity,blender" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,postman,figma,unity" />
 </p>
 
 ## GitHub Analytics
@@ -73,7 +73,6 @@
   </picture>
 </p>
 
-<sub>Cards are generated inside this repo by GitHub Actions (<code>.github/workflows/profile-cards.yml</code>, <code>snake.yml</code>) twice a day — no external stats server, so they never rate-limit.</sub>
 
 ## Featured Projects
 <table>
