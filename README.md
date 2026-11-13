@@ -78,7 +78,7 @@
 <table>
 <tr>
 <td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/my-sos-app"><b>🆘 SOS Wristband</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/my-sos-app/main/assets/wristband-hero.png" width="100%" alt="🆘 SOS Wristband"></a><br><sub>ESP32 one-touch distress wearable + companion app</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/omega"><b>🚀 Project Omega</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/omega/main/assets/omega-anim.gif" width="100%" alt="🚀 Project Omega"></a><br><sub>D3QN agent → auto-generated paper, slides & release</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/omega"><b>🚀 Project Omega</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/omega/main/assets/card.gif" width="100%" alt="🚀 Project Omega"></a><br><sub>D3QN agent → auto-generated paper, slides & release</sub></td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/ai-cultural-timemachine"><b>⏳ AI Cultural Time Machine</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/ai-cultural-timemachine/main/assets/hero.png" width="100%" alt="⏳ AI Cultural Time Machine"></a><br><sub>Explore eras with on-device AI — Next.js + Supabase</sub></td>
@@ -90,10 +90,10 @@
 </tr>
 <tr>
 <td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/emotion-multimodal-hybrid-app"><b>🎭 Emotion Multimodal</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/emotion-multimodal-hybrid-app/main/assets/hero.png" width="100%" alt="🎭 Emotion Multimodal"></a><br><sub>Face + voice + text emotion recognition</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/shironet"><b>🧠 ShiroNet</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/shironet/main/assets/shironet-anim.gif" width="100%" alt="🧠 ShiroNet"></a><br><sub>Neural network trained from scratch</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/shironet"><b>🧠 ShiroNet</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/shironet/main/assets/card.gif" width="100%" alt="🧠 ShiroNet"></a><br><sub>Neural network trained from scratch</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/PhpDebugger"><b>🐞 PHP Debugger Forensics</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/PhpDebugger/main/assets/phpdebugger-anim.gif" width="100%" alt="🐞 PHP Debugger Forensics"></a><br><sub>Chrome extension exposing silent PHP/SQL backend failures</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/PhpDebugger"><b>🐞 PHP Debugger Forensics</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/PhpDebugger/main/assets/card.gif" width="100%" alt="🐞 PHP Debugger Forensics"></a><br><sub>Chrome extension exposing silent PHP/SQL backend failures</sub></td>
 <td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Boss-House"><b>🏰 Boss House</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Boss-House/main/assets/hero.webp" width="100%" alt="🏰 Boss House"></a><br><sub>Co-op multiplayer action RPG in Unity</sub></td>
 </tr>
 </table>
