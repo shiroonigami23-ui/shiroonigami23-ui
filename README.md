@@ -78,16 +78,20 @@
 ## Featured Projects
 <table>
 <tr>
-<td width="50%" align="center"><a href="https://github.com/shiroonigami23-ui/veritas-protocol-ai-agents"><img src="https://raw.githubusercontent.com/shiroonigami23-ui/veritas-protocol-ai-agents/main/assets/banner.gif" width="100%" alt="veritas-protocol-ai-agents"></a><br><sub>Verifiable audit chain for AI coding agents</sub></td>
-<td width="50%" align="center"><a href="https://github.com/shiroonigami23-ui/shironet"><img src="https://raw.githubusercontent.com/shiroonigami23-ui/shironet/main/assets/banner.gif" width="100%" alt="shironet"></a><br><sub>Adversarially-hardened edge vision models</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Ashveil-rpg"><b>🏰 Ashveil RPG</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Ashveil-rpg/main/assets/gameplay.gif" width="100%" alt="🏰 Ashveil RPG"></a><br><sub>Browser rogue-lite — real gameplay, procedural floors, Tone.js audio</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/omega"><b>🚀 Project Omega</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/omega/main/delivery_full/video/best_agent_d3qn.gif" width="100%" alt="🚀 Project Omega"></a><br><sub>D3QN agent → auto-generated paper, slides & release</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center"><a href="https://github.com/shiroonigami23-ui/Smart-Study"><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Smart-Study/main/assets/banner.gif" width="100%" alt="Smart-Study"></a><br><sub>AI study hub — Next.js, Neon, PWA + Android</sub></td>
-<td width="50%" align="center"><a href="https://github.com/shiroonigami23-ui/omega"><img src="https://raw.githubusercontent.com/shiroonigami23-ui/omega/main/assets/banner.gif" width="100%" alt="omega"></a><br><sub>D3QN research pipeline → paper, slides, release</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Computer-Architecture"><b>🔌 Logic Simulator</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Computer-Architecture/main/assets/half-adder-demo.gif" width="100%" alt="🔌 Logic Simulator"></a><br><sub>In-browser circuit simulator with Gemini AI assistant</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/veritas-protocol-ai-agents"><b>🔏 Veritas Protocol</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/veritas-protocol-ai-agents/main/assets/media/pipeline-flow.gif" width="100%" alt="🔏 Veritas Protocol"></a><br><sub>Verifiable audit chain for AI coding agents</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center"><a href="https://github.com/shiroonigami23-ui/SecureImage"><img src="https://raw.githubusercontent.com/shiroonigami23-ui/SecureImage/main/assets/banner.gif" width="100%" alt="SecureImage"></a><br><sub>AES-GCM steganography — live on Streamlit</sub></td>
-<td width="50%" align="center"><a href="https://github.com/shiroonigami23-ui/lms-pro"><img src="https://raw.githubusercontent.com/shiroonigami23-ui/lms-pro/main/assets/banner.gif" width="100%" alt="lms-pro"></a><br><sub>Library management system — web, APK, EXE</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Smart-Study"><b>📚 Smart Study Hub</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Smart-Study/main/public/brand/app-preview.gif" width="100%" alt="📚 Smart Study Hub"></a><br><sub>AI study hub — Next.js, Neon, PWA + Android</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/SecureImage"><b>🔐 SecureImage</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/SecureImage/main/assets/stego-demo.png" width="100%" alt="🔐 SecureImage"></a><br><sub>AES-GCM steganography — live on Streamlit</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/shironet"><b>🧠 ShiroNet</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/shironet/main/docs/assets/model_evolution.gif" width="100%" alt="🧠 ShiroNet"></a><br><sub>Adversarially-hardened edge vision (+46 pt robustness)</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/hms-bluestay"><b>🏨 BlueStay HMS</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/hms-bluestay/main/docs/demo.gif" width="100%" alt="🏨 BlueStay HMS"></a><br><sub>Hotel management — web, Android, desktop</sub></td>
 </tr>
 </table>
 
