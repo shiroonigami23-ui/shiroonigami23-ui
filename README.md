@@ -78,20 +78,28 @@
 ## Featured Projects
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Ashveil-rpg"><b>🏰 Ashveil RPG</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Ashveil-rpg/main/assets/gameplay.gif" width="100%" alt="🏰 Ashveil RPG"></a><br><sub>Browser rogue-lite — real gameplay, procedural floors, Tone.js audio</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/my-sos-app"><b>🆘 SOS Wristband</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/my-sos-app/main/assets/wristband-hero.png" width="100%" alt="🆘 SOS Wristband"></a><br><sub>ESP32 one-touch distress wearable + companion app</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Ashveil-rpg"><b>🏰 Ashveil RPG</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Ashveil-rpg/main/assets/gameplay.gif" width="100%" alt="🏰 Ashveil RPG"></a><br><sub>Browser rogue-lite — procedural floors, Tone.js audio</sub></td>
+</tr>
+<tr>
 <td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/omega"><b>🚀 Project Omega</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/omega/main/delivery_full/video/best_agent_d3qn.gif" width="100%" alt="🚀 Project Omega"></a><br><sub>D3QN agent → auto-generated paper, slides & release</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/ai-cultural-timemachine"><b>⏳ AI Cultural Time Machine</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/ai-cultural-timemachine/main/assets/hero.png" width="100%" alt="⏳ AI Cultural Time Machine"></a><br><sub>Explore eras with on-device AI — Next.js + Supabase</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Computer-Architecture"><b>🔌 Logic Simulator</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Computer-Architecture/main/assets/half-adder-demo.gif" width="100%" alt="🔌 Logic Simulator"></a><br><sub>In-browser circuit simulator with Gemini AI assistant</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/veritas-protocol-ai-agents"><b>🔏 Veritas Protocol</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/veritas-protocol-ai-agents/main/assets/media/pipeline-flow.gif" width="100%" alt="🔏 Veritas Protocol"></a><br><sub>Verifiable audit chain for AI coding agents</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Empire-conquest"><b>⚔️ Empire Conquest</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Empire-conquest/main/assets/hero.png" width="100%" alt="⚔️ Empire Conquest"></a><br><sub>Strategy game of empires, armies and territory</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/global-supply-shock-platform"><b>🌐 Global Supply Shock</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/global-supply-shock-platform/main/assets/hero.png" width="100%" alt="🌐 Global Supply Shock"></a><br><sub>Simulating supply-chain shocks across the world</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Smart-Study"><b>📚 Smart Study Hub</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Smart-Study/main/public/brand/app-preview.gif" width="100%" alt="📚 Smart Study Hub"></a><br><sub>AI study hub — Next.js, Neon, PWA + Android</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/SecureImage"><b>🔐 SecureImage</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/SecureImage/main/assets/stego-demo.png" width="100%" alt="🔐 SecureImage"></a><br><sub>AES-GCM steganography — live on Streamlit</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Computer-Architecture"><b>🧮 Computer Architecture</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Computer-Architecture/main/assets/half-adder-demo.gif" width="100%" alt="🧮 Computer Architecture"></a><br><sub>Interactive logic & CPU simulators</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Zero-Trace-FS"><b>🛡️ Zero-Trace FS</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Zero-Trace-FS/main/assets/hero.png" width="100%" alt="🛡️ Zero-Trace FS"></a><br><sub>Encrypted, self-wiping secure file system</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/shironet"><b>🧠 ShiroNet</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/shironet/main/docs/assets/model_evolution.gif" width="100%" alt="🧠 ShiroNet"></a><br><sub>Adversarially-hardened edge vision (+46 pt robustness)</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/hms-bluestay"><b>🏨 BlueStay HMS</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/hms-bluestay/main/docs/demo.gif" width="100%" alt="🏨 BlueStay HMS"></a><br><sub>Hotel management — web, Android, desktop</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/emotion-multimodal-hybrid-app"><b>🎭 Emotion Multimodal</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/emotion-multimodal-hybrid-app/main/assets/hero.png" width="100%" alt="🎭 Emotion Multimodal"></a><br><sub>Face + voice + text emotion recognition</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Smart-Study"><b>📚 Smart Study</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Smart-Study/main/public/brand/app-preview.gif" width="100%" alt="📚 Smart Study"></a><br><sub>AI study companion</sub></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/shironet"><b>🧠 ShiroNet</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/shironet/main/docs/assets/model_evolution.gif" width="100%" alt="🧠 ShiroNet"></a><br><sub>Neural network trained from scratch</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/hms-bluestay"><b>🏨 BlueStay HMS</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/hms-bluestay/main/docs/demo.gif" width="100%" alt="🏨 BlueStay HMS"></a><br><sub>Hotel management system</sub></td>
 </tr>
 </table>
 
