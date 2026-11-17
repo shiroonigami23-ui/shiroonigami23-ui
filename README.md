@@ -78,24 +78,24 @@
 ## Featured Projects
 <table>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/my-sos-app"><b>🆘 SOS Wristband</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/my-sos-app/main/assets/wristband-hero.png" width="100%" alt="🆘 SOS Wristband"></a><br><sub>ESP32 one-touch distress wearable + companion app</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/omega"><b>🚀 Project Omega</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/omega/main/assets/card-v2.gif" width="100%" alt="🚀 Project Omega"></a><br><sub>D3QN agent → auto-generated paper, slides & release</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/my-sos-app"><b>🆘 SOS Wristband</b><br><img src="assets/cards/my-sos-app.png" width="100%" alt="🆘 SOS Wristband"></a><br><sub>ESP32 one-touch distress wearable + companion app</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/omega"><b>🚀 Project Omega</b><br><img src="assets/cards/omega.png" width="100%" alt="🚀 Project Omega"></a><br><sub>D3QN agent → auto-generated paper, slides & release</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/ai-cultural-timemachine"><b>⏳ AI Cultural Time Machine</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/ai-cultural-timemachine/main/assets/hero.png" width="100%" alt="⏳ AI Cultural Time Machine"></a><br><sub>Live history encyclopedia: 1,500+ interlinked entries, timelines and an in-site reader</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Jax-swarm-es"><b>🐝 JAX Swarm ES</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Jax-swarm-es/main/results/drone/episode_0.gif" width="100%" alt="🐝 JAX Swarm ES"></a><br><sub>Evolution strategies across ~10,000 parallel environments in JAX</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/ai-cultural-timemachine"><b>⏳ AI Cultural Time Machine</b><br><img src="assets/cards/ai-cultural-timemachine.png" width="100%" alt="⏳ AI Cultural Time Machine"></a><br><sub>Live history encyclopedia: 1,500+ interlinked entries, timelines and an in-site reader</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Jax-swarm-es"><b>🐝 JAX Swarm ES</b><br><img src="assets/cards/jax-swarm-es.png" width="100%" alt="🐝 JAX Swarm ES"></a><br><sub>Evolution strategies across ~10,000 parallel environments in JAX</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/global-supply-shock-platform"><b>🌐 Global Supply Shock</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/global-supply-shock-platform/main/assets/hero.png" width="100%" alt="🌐 Global Supply Shock"></a><br><sub>Simulating supply-chain shocks across the world</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Zero-Trace-FS"><b>🛡️ Zero-Trace FS</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Zero-Trace-FS/main/assets/hero.png" width="100%" alt="🛡️ Zero-Trace FS"></a><br><sub>Encrypted, self-wiping secure file system</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/global-supply-shock-platform"><b>🌐 Global Supply Shock</b><br><img src="assets/cards/global-supply-shock-platform.png" width="100%" alt="🌐 Global Supply Shock"></a><br><sub>Simulating supply-chain shocks across the world</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Zero-Trace-FS"><b>🛡️ Zero-Trace FS</b><br><img src="assets/cards/zero-trace-fs.png" width="100%" alt="🛡️ Zero-Trace FS"></a><br><sub>Encrypted, self-wiping secure file system</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/emotion-multimodal-hybrid-app"><b>🎭 Emotion Multimodal</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/emotion-multimodal-hybrid-app/main/assets/hero.png" width="100%" alt="🎭 Emotion Multimodal"></a><br><sub>Face + voice + text emotion recognition</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/shironet"><b>🧠 ShiroNet</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/shironet/main/assets/card-v2.gif" width="100%" alt="🧠 ShiroNet"></a><br><sub>Neural network trained from scratch</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/emotion-multimodal-hybrid-app"><b>🎭 Emotion Multimodal</b><br><img src="assets/cards/emotion-multimodal-hybrid-app.png" width="100%" alt="🎭 Emotion Multimodal"></a><br><sub>Face + voice + text emotion recognition</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/shironet"><b>🧠 ShiroNet</b><br><img src="assets/cards/shironet.png" width="100%" alt="🧠 ShiroNet"></a><br><sub>Neural network trained from scratch</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://php-debugger-rj1n.vercel.app"><b>🐞 PHP Debugger Forensics</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/PhpDebugger/main/assets/card-v2.gif" width="100%" alt="🐞 PHP Debugger Forensics"></a><br><sub>Chrome extension exposing silent PHP/SQL backend failures · <a href="https://php-debugger-rj1n.vercel.app">live site</a> · <a href="https://github.com/shiroonigami23-ui/PhpDebugger">repo</a></sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/careerforge-go"><b>🧭 CareerForge</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/careerforge-go/main/assets/app-tour.gif" width="100%" alt="🧭 CareerForge"></a><br><sub>Résumé-to-job fit in Go · Android, iOS and Windows releases</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://php-debugger-rj1n.vercel.app"><b>🐞 PHP Debugger Forensics</b><br><img src="assets/cards/phpdebugger.png" width="100%" alt="🐞 PHP Debugger Forensics"></a><br><sub>Chrome extension exposing silent PHP/SQL backend failures · <a href="https://php-debugger-rj1n.vercel.app">live site</a> · <a href="https://github.com/shiroonigami23-ui/PhpDebugger">repo</a></sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/careerforge-go"><b>🧭 CareerForge</b><br><img src="assets/cards/careerforge-go.png" width="100%" alt="🧭 CareerForge"></a><br><sub>Résumé-to-job fit in Go · Android, iOS and Windows releases</sub></td>
 </tr>
 </table>
 
