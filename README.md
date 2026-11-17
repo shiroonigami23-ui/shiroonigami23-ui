@@ -14,6 +14,7 @@
 </p>
 
 ## About Me
+- Volunteer Teaching Assistant for CMU 11-785 (Introduction to Deep Learning), Language Technologies Institute.
 - Building robust products across web, AI/ML, systems programming, and security.
 - Working on **AegisOS**: a secure, lightweight, customizable operating system.
 - Focus: scalable backend architecture, algorithmic systems, and practical security engineering.
@@ -81,8 +82,8 @@
 <td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/omega"><b>🚀 Project Omega</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/omega/main/assets/card-v2.gif" width="100%" alt="🚀 Project Omega"></a><br><sub>D3QN agent → auto-generated paper, slides & release</sub></td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/ai-cultural-timemachine"><b>⏳ AI Cultural Time Machine</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/ai-cultural-timemachine/main/assets/hero.png" width="100%" alt="⏳ AI Cultural Time Machine"></a><br><sub>Explore eras with on-device AI — Next.js + Supabase</sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Empire-conquest"><b>⚔️ Empire Conquest</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Empire-conquest/main/assets/hero.png" width="100%" alt="⚔️ Empire Conquest"></a><br><sub>Strategy game of empires, armies and territory</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/ai-cultural-timemachine"><b>⏳ AI Cultural Time Machine</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/ai-cultural-timemachine/main/assets/hero.png" width="100%" alt="⏳ AI Cultural Time Machine"></a><br><sub>Live history encyclopedia: 1,500+ interlinked entries, timelines and an in-site reader</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Jax-swarm-es"><b>🐝 JAX Swarm ES</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Jax-swarm-es/main/results/drone/episode_0.gif" width="100%" alt="🐝 JAX Swarm ES"></a><br><sub>Evolution strategies across ~10,000 parallel environments in JAX</sub></td>
 </tr>
 <tr>
 <td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/global-supply-shock-platform"><b>🌐 Global Supply Shock</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/global-supply-shock-platform/main/assets/hero.png" width="100%" alt="🌐 Global Supply Shock"></a><br><sub>Simulating supply-chain shocks across the world</sub></td>
@@ -94,24 +95,24 @@
 </tr>
 <tr>
 <td width="50%" align="center" valign="top"><a href="https://php-debugger-rj1n.vercel.app"><b>🐞 PHP Debugger Forensics</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/PhpDebugger/main/assets/card-v2.gif" width="100%" alt="🐞 PHP Debugger Forensics"></a><br><sub>Chrome extension exposing silent PHP/SQL backend failures · <a href="https://php-debugger-rj1n.vercel.app">live site</a> · <a href="https://github.com/shiroonigami23-ui/PhpDebugger">repo</a></sub></td>
-<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/Boss-House"><b>🏰 Boss House</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/Boss-House/main/assets/hero.webp" width="100%" alt="🏰 Boss House"></a><br><sub>Co-op multiplayer action RPG in Unity</sub></td>
+<td width="50%" align="center" valign="top"><a href="https://github.com/shiroonigami23-ui/careerforge-go"><b>🧭 CareerForge</b><br><img src="https://raw.githubusercontent.com/shiroonigami23-ui/careerforge-go/main/assets/app-tour.gif" width="100%" alt="🧭 CareerForge"></a><br><sub>Résumé-to-job fit in Go · Android, iOS and Windows releases</sub></td>
 </tr>
 </table>
 
 <p align="center">
   <a href="https://github.com/shiroonigami23-ui/AegisOS"><img src="https://img.shields.io/badge/AegisOS-secure_lightweight_OS-0A0A23?style=for-the-badge&logo=linux&logoColor=white" alt="AegisOS" /></a>
   <a href="https://github.com/shiroonigami23-ui/class-solutions"><img src="https://img.shields.io/badge/class--solutions-coursework_hub-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="class-solutions" /></a>
-  <a href="https://github.com/shiroonigami23-ui/Research-Vault"><img src="https://img.shields.io/badge/Research--Vault-papers-8957e5?style=for-the-badge&logo=bookstack&logoColor=white" alt="Research-Vault" /></a>
+  <a href="https://github.com/shiroonigami23-ui/11-785-dual-teacher-distillation"><img src="https://img.shields.io/badge/11--785-dual--teacher_distillation-8957e5?style=for-the-badge&logo=pytorch&logoColor=white" alt="11-785 dual-teacher distillation" /></a>
+  <a href="https://github.com/shiroonigami23-ui/Toc-Suite"><img src="https://img.shields.io/badge/Toc--Suite-automata_web_app-0f9d58?style=for-the-badge&logo=netlify&logoColor=white" alt="Toc-Suite" /></a>
   <a href="https://github.com/shiroonigami23-ui/Jax-swarm-es"><img src="https://img.shields.io/badge/Jax--swarm--es-10k--env_ES-A8B9CC?style=for-the-badge&logo=google&logoColor=white" alt="Jax-swarm-es" /></a>
 </p>
 
 ## Command Center
- Powering my ecosystem dashboard and automation.
+Index of my public flagship projects.
 
-- [Status Dashboard](./generated/STATUS.md)
+- [Project Index](./generated/STATUS.md)
 - [Project Showcase](./generated/SHOWCASE.md)
 - [Architecture Cards](./generated/ARCHITECTURE_CARDS.md)
-- [Sync Script](./scripts/sync_dashboard.py)
 
 ---
 <p align="center">

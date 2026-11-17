@@ -2,44 +2,24 @@
   "owner": "shiroonigami23-ui",
   "projects": [
     {
-      "name": "Shiro-Nexus",
-      "repo": "Shiro-Nexus",
-      "category": "Control Plane",
+      "name": "Jax-swarm-es",
+      "repo": "Jax-swarm-es",
+      "category": "ML Research",
       "criticality": "high",
-      "local_path": "C:/Users/shiro/OneDrive/Desktop/Shiro-Nexus",
-      "description": "Meta control center for portfolio operations and project observability.",
-      "stack": "Python, GitHub API, Markdown Automation",
-      "audience": "Visitors, collaborators, portfolio reviewers"
+      "local_path": "",
+      "description": "Evolution strategies over ~10,000 parallel environments in JAX.",
+      "stack": "Python, JAX",
+      "audience": "ML researchers, RL practitioners"
     },
     {
-      "name": "nba-os",
-      "repo": "nba-os",
-      "category": "Enterprise Software",
+      "name": "11-785-dual-teacher-distillation",
+      "repo": "11-785-dual-teacher-distillation",
+      "category": "ML Research",
       "criticality": "high",
-      "local_path": "C:/Users/shiro/OneDrive/Desktop/NBA/nba-os",
-      "description": "Offline-first NBA accreditation automation platform.",
-      "stack": "PHP, MySQL, React, Redis-ready",
-      "audience": "Institutions, accreditation cells, admins"
-    },
-    {
-      "name": "project-hub",
-      "repo": "project-hub",
-      "category": "Education Platform",
-      "criticality": "high",
-      "local_path": "C:/Users/shiro/OneDrive/Desktop/project-hub",
-      "description": "Project/group/quiz collaboration system.",
-      "stack": "Web stack (frontend + backend services)",
-      "audience": "Students, faculty, course managers"
-    },
-    {
-      "name": "Research-Vault",
-      "repo": "Research-Vault",
-      "category": "Research",
-      "criticality": "medium",
-      "local_path": "C:/Users/shiro/OneDrive/Desktop/Research-Vault",
-      "description": "Central repository for research packages and publication artifacts.",
-      "stack": "Research docs, datasets, paper packages",
-      "audience": "Researchers, reviewers, collaborators"
+      "local_path": "",
+      "description": "Knowledge distillation from two teacher models.",
+      "stack": "Python, PyTorch",
+      "audience": "ML researchers, students"
     },
     {
       "name": "MyTorch-MNIST-Elite",
@@ -47,9 +27,59 @@
       "category": "AI Engine",
       "criticality": "medium",
       "local_path": "",
-      "description": "From-scratch ML framework experimentation and MNIST workflows.",
+      "description": "From-scratch ML framework experimentation and MNIST workflow.",
       "stack": "Python, NumPy, neural network internals",
       "audience": "ML learners, engine builders"
+    },
+    {
+      "name": "AegisOS",
+      "repo": "AegisOS",
+      "category": "Systems",
+      "criticality": "high",
+      "local_path": "",
+      "description": "Secure, lightweight operating system kernel in C and Assembly.",
+      "stack": "C, Assembly",
+      "audience": "Systems programmers"
+    },
+    {
+      "name": "omega",
+      "repo": "omega",
+      "category": "ML Research",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "D3QN agent with auto-generated paper, slides and release.",
+      "stack": "Python, PyTorch",
+      "audience": "RL practitioners"
+    },
+    {
+      "name": "careerforge-go",
+      "repo": "careerforge-go",
+      "category": "Product",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "Résumé-to-job fit app with Android, iOS and Windows releases.",
+      "stack": "Go",
+      "audience": "Job seekers"
+    },
+    {
+      "name": "Toc-Suite",
+      "repo": "Toc-Suite",
+      "category": "Education Platform",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "Theory of Computation automata web app used by classmates.",
+      "stack": "Web",
+      "audience": "Students"
+    },
+    {
+      "name": "ai-cultural-timemachine",
+      "repo": "ai-cultural-timemachine",
+      "category": "Knowledge Platform",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "History encyclopedia with interlinked catalogs and timelines.",
+      "stack": "Python static site generator, JavaScript",
+      "audience": "Readers, students"
     }
   ]
 }

@@ -1,31 +1,12 @@
-# Shiro Nexus Status Dashboard
+# Project Index
 
-Generated: 2026-03-07 06:06 UTC
-
-## Portfolio Health
-
-| Project | Category | Criticality | Status | Visibility | Branch | Last Push | Stars | Open Issues |
-|---|---|---|---|---|---|---|---:|---:|
-| [Shiro-Nexus](https://github.com/shiroonigami23-ui/Shiro-Nexus) | Control Plane | high | ACTIVE | public | main | 2026-03-07 06:03 UTC | 9 | 0 |
-| [nba-os](https://github.com/shiroonigami23-ui/nba-os) | Enterprise Software | high | ACTIVE | private | master | 2026-03-07 05:21 UTC | 0 | 0 |
-| [project-hub](https://github.com/shiroonigami23-ui/project-hub) | Education Platform | high | ACTIVE | private | main | 2026-03-06 11:03 UTC | 1 | 0 |
-| [MyTorch-MNIST-Elite](https://github.com/shiroonigami23-ui/MyTorch-MNIST-Elite) | AI Engine | medium | WARM | public | main | 2026-01-11 11:45 UTC | 9 | 0 |
-| [Research-Vault](https://github.com/shiroonigami23-ui/Research-Vault) | Research | medium | ACTIVE | public | main | 2026-03-07 05:42 UTC | 2 | 0 |
-
-## Local Linking
-
-- **Shiro-Nexus**: `C:/Users/shiro/OneDrive/Desktop/Shiro-Nexus`
-- **nba-os**: `C:/Users/shiro/OneDrive/Desktop/NBA/nba-os`
-- **project-hub**: `C:/Users/shiro/OneDrive/Desktop/project-hub`
-- **MyTorch-MNIST-Elite**: `(not configured)`
-- **Research-Vault**: `C:/Users/shiro/OneDrive/Desktop/Research-Vault`
-
-## Notes
-
-- No API errors detected during sync.
-
-## Operations
-
-```powershell
-python scripts/sync_dashboard.py
-```
+| Project | Area | Description |
+|---|---|---|
+| [Jax-swarm-es](https://github.com/shiroonigami23-ui/Jax-swarm-es) | ML Research | Evolution strategies over ~10,000 parallel environments in JAX. |
+| [11-785-dual-teacher-distillation](https://github.com/shiroonigami23-ui/11-785-dual-teacher-distillation) | ML Research | Knowledge distillation from two teacher models. |
+| [MyTorch-MNIST-Elite](https://github.com/shiroonigami23-ui/MyTorch-MNIST-Elite) | AI Engine | From-scratch ML framework experimentation and MNIST workflow. |
+| [AegisOS](https://github.com/shiroonigami23-ui/AegisOS) | Systems | Secure, lightweight operating system kernel in C and Assembly. |
+| [omega](https://github.com/shiroonigami23-ui/omega) | ML Research | D3QN agent with auto-generated paper, slides and release. |
+| [careerforge-go](https://github.com/shiroonigami23-ui/careerforge-go) | Product | Résumé-to-job fit app with Android, iOS and Windows releases. |
+| [Toc-Suite](https://github.com/shiroonigami23-ui/Toc-Suite) | Education Platform | Theory of Computation automata web app used by classmates. |
+| [ai-cultural-timemachine](https://github.com/shiroonigami23-ui/ai-cultural-timemachine) | Knowledge Platform | History encyclopedia with interlinked catalogs and timelines. |

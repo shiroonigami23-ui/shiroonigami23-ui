@@ -1,66 +1,49 @@
 # Architecture Cards
 
-Generated: 2026-03-07 06:06 UTC
+## Jax-swarm-es
+- Repo: https://github.com/shiroonigami23-ui/Jax-swarm-es
+- Area: ML Research
+- Stack: Python, JAX
+- What it is: Evolution strategies over ~10,000 parallel environments in JAX.
 
-Compact architecture snapshots for each tracked repository.
+## 11-785-dual-teacher-distillation
+- Repo: https://github.com/shiroonigami23-ui/11-785-dual-teacher-distillation
+- Area: ML Research
+- Stack: Python, PyTorch
+- What it is: Knowledge distillation from two teacher models.
 
 ## MyTorch-MNIST-Elite
 - Repo: https://github.com/shiroonigami23-ui/MyTorch-MNIST-Elite
-- Category: AI Engine | Criticality: medium | Status: WARM
-- Primary language: Python | Visibility: public
-- Purpose: From-scratch ML framework experimentation and MNIST workflows.
+- Area: AI Engine
 - Stack: Python, NumPy, neural network internals
-- Audience: ML learners, engine builders
-- System Flow:
-  1. Input/Data sources enter project workflows.
-  2. Core logic/services process and produce outputs.
-  3. Outputs are exposed via UI/docs/APIs for users and collaborators.
+- What it is: From-scratch ML framework experimentation and MNIST workflow.
 
-## Shiro-Nexus
-- Repo: https://github.com/shiroonigami23-ui/Shiro-Nexus
-- Category: Control Plane | Criticality: high | Status: ACTIVE
-- Primary language: Python | Visibility: public
-- Purpose: Meta control center for portfolio operations and project observability.
-- Stack: Python, GitHub API, Markdown Automation
-- Audience: Visitors, collaborators, portfolio reviewers
-- System Flow:
-  1. Input/Data sources enter project workflows.
-  2. Core logic/services process and produce outputs.
-  3. Outputs are exposed via UI/docs/APIs for users and collaborators.
+## AegisOS
+- Repo: https://github.com/shiroonigami23-ui/AegisOS
+- Area: Systems
+- Stack: C, Assembly
+- What it is: Secure, lightweight operating system kernel in C and Assembly.
 
-## project-hub
-- Repo: https://github.com/shiroonigami23-ui/project-hub
-- Category: Education Platform | Criticality: high | Status: ACTIVE
-- Primary language: TypeScript | Visibility: private
-- Purpose: Project/group/quiz collaboration system.
-- Stack: Web stack (frontend + backend services)
-- Audience: Students, faculty, course managers
-- System Flow:
-  1. Input/Data sources enter project workflows.
-  2. Core logic/services process and produce outputs.
-  3. Outputs are exposed via UI/docs/APIs for users and collaborators.
+## omega
+- Repo: https://github.com/shiroonigami23-ui/omega
+- Area: ML Research
+- Stack: Python, PyTorch
+- What it is: D3QN agent with auto-generated paper, slides and release.
 
-## nba-os
-- Repo: https://github.com/shiroonigami23-ui/nba-os
-- Category: Enterprise Software | Criticality: high | Status: ACTIVE
-- Primary language: PHP | Visibility: private
-- Purpose: Offline-first NBA accreditation automation platform.
-- Stack: PHP, MySQL, React, Redis-ready
-- Audience: Institutions, accreditation cells, admins
-- System Flow:
-  1. Input/Data sources enter project workflows.
-  2. Core logic/services process and produce outputs.
-  3. Outputs are exposed via UI/docs/APIs for users and collaborators.
+## careerforge-go
+- Repo: https://github.com/shiroonigami23-ui/careerforge-go
+- Area: Product
+- Stack: Go
+- What it is: Résumé-to-job fit app with Android, iOS and Windows releases.
 
-## Research-Vault
-- Repo: https://github.com/shiroonigami23-ui/Research-Vault
-- Category: Research | Criticality: medium | Status: ACTIVE
-- Primary language: Python | Visibility: public
-- Purpose: Central repository for research packages and publication artifacts.
-- Stack: Research docs, datasets, paper packages
-- Audience: Researchers, reviewers, collaborators
-- System Flow:
-  1. Input/Data sources enter project workflows.
-  2. Core logic/services process and produce outputs.
-  3. Outputs are exposed via UI/docs/APIs for users and collaborators.
+## Toc-Suite
+- Repo: https://github.com/shiroonigami23-ui/Toc-Suite
+- Area: Education Platform
+- Stack: Web
+- What it is: Theory of Computation automata web app used by classmates.
 
+## ai-cultural-timemachine
+- Repo: https://github.com/shiroonigami23-ui/ai-cultural-timemachine
+- Area: Knowledge Platform
+- Stack: Python static site generator, JavaScript
+- What it is: History encyclopedia with interlinked catalogs and timelines.
