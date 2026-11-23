@@ -80,6 +80,56 @@
       "description": "History encyclopedia with interlinked catalogs and timelines.",
       "stack": "Python static site generator, JavaScript",
       "audience": "Readers, students"
+    },
+    {
+      "name": "Hollograph",
+      "repo": "Hollograph",
+      "category": "Interactive Systems",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "Touchless volumetric workspace: WebGL 3D visualization, optics, DSP and blueprint views.",
+      "stack": "TypeScript, WebGL",
+      "audience": "Hardware and graphics builders"
+    },
+    {
+      "name": "Omni-Gauntlet",
+      "repo": "Omni-Gauntlet",
+      "category": "Hardware",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "Wireless gesture-control smart glove (ESP32 + MPU-6050 over UDP) for mouse, media and slides.",
+      "stack": "C++ (Arduino/ESP32), Python",
+      "audience": "Makers, wearable builders"
+    },
+    {
+      "name": "Land-surface-research",
+      "repo": "Land-surface-research",
+      "category": "Knowledge Platform",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "Land encyclopedia: countries, regions, landforms, soils, climate, species, parks and crops.",
+      "stack": "Python static site generator, JavaScript",
+      "audience": "Readers, students"
+    },
+    {
+      "name": "under-water-deep-research",
+      "repo": "under-water-deep-research",
+      "category": "Knowledge Platform",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "Ocean encyclopedia synced with Research-Vault.",
+      "stack": "Python static site generator, JavaScript",
+      "audience": "Readers, students"
+    },
+    {
+      "name": "outer-space-research",
+      "repo": "outer-space-research",
+      "category": "Knowledge Platform",
+      "criticality": "medium",
+      "local_path": "",
+      "description": "Space encyclopedia synced with Research-Vault.",
+      "stack": "Python static site generator, JavaScript",
+      "audience": "Readers, students"
     }
   ]
 }

@@ -104,7 +104,18 @@
   <a href="https://github.com/shiroonigami23-ui/class-solutions"><img src="https://img.shields.io/badge/class--solutions-coursework_hub-1f6feb?style=for-the-badge&logo=github&logoColor=white" alt="class-solutions" /></a>
   <a href="https://github.com/shiroonigami23-ui/11-785-dual-teacher-distillation"><img src="https://img.shields.io/badge/11--785-dual--teacher_distillation-8957e5?style=for-the-badge&logo=pytorch&logoColor=white" alt="11-785 dual-teacher distillation" /></a>
   <a href="https://github.com/shiroonigami23-ui/Toc-Suite"><img src="https://img.shields.io/badge/Toc--Suite-automata_web_app-0f9d58?style=for-the-badge&logo=netlify&logoColor=white" alt="Toc-Suite" /></a>
-  <a href="https://github.com/shiroonigami23-ui/Jax-swarm-es"><img src="https://img.shields.io/badge/Jax--swarm--es-10k--env_ES-A8B9CC?style=for-the-badge&logo=google&logoColor=white" alt="Jax-swarm-es" /></a>
+  <a href="https://github.com/shiroonigami23-ui/Hollograph"><img src="https://img.shields.io/badge/Hollograph-touchless_3D_workspace-3178C6?style=for-the-badge&logo=webgl&logoColor=white" alt="Hollograph" /></a>
+  <a href="https://github.com/shiroonigami23-ui/Omni-Gauntlet"><img src="https://img.shields.io/badge/Omni--Gauntlet-gesture_smart_glove-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="Omni-Gauntlet" /></a>
+</p>
+
+### Encyclopedias
+Four interlinked, sourced encyclopedia sites, each published on GitHub Pages.
+
+<p align="center">
+  <a href="https://github.com/shiroonigami23-ui/ai-cultural-timemachine"><img src="https://img.shields.io/badge/History-ai--cultural--timemachine-8B5A2B?style=for-the-badge" alt="History encyclopedia" /></a>
+  <a href="https://github.com/shiroonigami23-ui/under-water-deep-research"><img src="https://img.shields.io/badge/Ocean-under--water--deep--research-0077B6?style=for-the-badge" alt="Ocean encyclopedia" /></a>
+  <a href="https://github.com/shiroonigami23-ui/outer-space-research"><img src="https://img.shields.io/badge/Space-outer--space--research-1B1F3B?style=for-the-badge" alt="Space encyclopedia" /></a>
+  <a href="https://github.com/shiroonigami23-ui/Land-surface-research"><img src="https://img.shields.io/badge/Land-Land--surface--research-2F6B2F?style=for-the-badge" alt="Land encyclopedia" /></a>
 </p>
 
 ## Command Center
